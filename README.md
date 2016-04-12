@@ -23,7 +23,7 @@ Or install it yourself as:
 Create storage providers by extending this api:
 
 ```
-  require 'persistent-cache-storage-api/storage_api'
+  require 'persistent-cache/storage_api'
 
   module Persistent
     class StorageDirectory < Persistent::Cache::StorageApi::API
@@ -61,7 +61,7 @@ Create storage providers by extending this api:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/evangraan/persistent-cache-storage-api. This gem was sponsored by Hetzner Pty Ltd.
+Bug reports and pull requests are welcome on GitHub at https://github.com/evangraan/persistent-cache-storage-api. This gem was sponsored by Hetzner (Pty) Ltd - http://hetzner.co.za
 
 ## License
 
