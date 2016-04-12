@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-class ItemUnderTest < Persistent::StorageApi::API
+class ItemUnderTest < Persistent::Storage::API
   def initialize(storage_details)
     super(storage_details)
   end
@@ -30,14 +30,14 @@ class ItemUnderTest < Persistent::StorageApi::API
   end
 end
 
-describe Persistent::StorageApi::API do
+describe Persistent::Storage::API do
   before :each do
     @iut = ItemUnderTest.new({})
   end
 
   context "when using as a base class for a Persistent::Cache storage provider" do
     it 'has a version number' do
-      expect(Persistent::StorageApi::VERSION).not_to be nil
+      expect(Persistent::Storage::VERSION).not_to be nil
     end
 
     it "should accept storage details when initialized" do

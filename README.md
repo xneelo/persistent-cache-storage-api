@@ -1,4 +1,4 @@
-# Persistent::Storage::StorageAPI
+# Persistent::Storage::API
 
 This gem encodes the API that Persistent::Cache providers adhere to in order to plug in as a back-end to Persistent::Cache. Please see https://rubygems.org/gems/persistent-cache.
 
@@ -26,7 +26,7 @@ Create storage providers by extending this api:
   require 'persistent-cache/storage_api'
 
   module Persistent
-    class StorageDirectory < Persistent::StorageApi::API
+    class StorageDirectory < Persistent::Storage::API
       def initialize(storage_details)
         # storage_details includes connection strings, etc.
       end

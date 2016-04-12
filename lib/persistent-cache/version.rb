@@ -1,5 +1,5 @@
 module Persistent
-  module StorageApi
-    VERSION = "0.1.3"
+  module Storage
+    VERSION = "0.1.4"
   end
 end

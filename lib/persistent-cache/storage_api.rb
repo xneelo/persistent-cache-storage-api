@@ -1,7 +1,7 @@
 require "persistent-cache/version"
 
 module Persistent
-  module StorageApi
+  module Storage
     class API
       public 
 
