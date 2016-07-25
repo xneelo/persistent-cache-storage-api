@@ -1,5 +1,7 @@
 # Persistent::Storage::API
 
+[![Gem Version](https://badge.fury.io/rb/persistent-cache-storage-api.png)](https://badge.fury.io/rb/persistent-cache-storage-api)
+
 This gem encodes the API that Persistent::Cache providers adhere to in order to plug in as a back-end to Persistent::Cache. Please see https://rubygems.org/gems/persistent-cache.
 
 ## Installation
