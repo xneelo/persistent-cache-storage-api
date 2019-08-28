@@ -6,12 +6,12 @@ require 'persistent-cache/version'
 Gem::Specification.new do |spec|
   spec.name          = "persistent-cache-storage-api"
   spec.version       = Persistent::Storage::VERSION
-  spec.authors       = ["Ernst Van Graan"]
-  spec.email         = ["ernst.van.graan@hetzner.co.za"]
+  spec.authors       = ["Ernst Van Graan", "xneelo (Pty) Ltd"]
+  spec.email         = ["ernst.vangraan@gmail.com"]
 
   spec.summary       = %q{This gem encodes the API that Persistent::Cache providers adhere to in order to plug in as a back-end provider.}
   spec.description   = %q{This gem encodes the API that Persistent::Cache providers adhere to in order to plug in as a back-end provider.}
-  spec.homepage      = "https://github.com/evangraan/persistent-cache-storage-api"
+  spec.homepage      = "https://github.com/xneelo/persistent-cache-storage-api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
