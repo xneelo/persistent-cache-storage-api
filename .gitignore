@@ -1,5 +1,6 @@
 /.bundle/
 *.gem
+/.ruby-version
 /.yardoc
 /Gemfile.lock
 /_yardoc/
